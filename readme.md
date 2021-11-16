@@ -1,0 +1,1 @@
+Menu de navegação fixado no lado esquerdo da página e possui certas animações.
