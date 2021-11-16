@@ -81,9 +81,10 @@ label #cancel {
 .img {
     background-image: url('imagens/pexels-negative-space.jpg');
     background-repeat: no-repeat;
-    background-attachment: fixed;
+    background-position: center;
     background-size: cover;
     height: 100vh;
+    transition: all 0.5s ease;
 }
 
 /* animações */
@@ -100,4 +101,8 @@ label #cancel {
 
 #check:checked ~ label #cancel {
     left: 195px;
+}
+
+#check:checked ~ .img {
+    margin-left: 250px;
 }
